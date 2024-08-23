@@ -23,6 +23,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-uses-react": "error",
     "react/prop-types": ["off"],
     "quotes": ["warn", "single"],
     "indent": ["warn", 2],
