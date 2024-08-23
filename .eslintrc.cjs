@@ -27,6 +27,7 @@ module.exports = {
     "react/react-in-jsx-scope": "error",
     "react/prop-types": ["off"],
     "react/no-array-index-key": "warn",
+    "react-hooks/rules-of-hooks": "error",
     "quotes": ["warn", "single"],
     "indent": ["warn", 2],
     "linebreak-style": ["error", "unix"],
