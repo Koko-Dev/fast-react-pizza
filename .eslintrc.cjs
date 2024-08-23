@@ -32,5 +32,6 @@ module.exports = {
     "quotes": ["warn", "single"],
     "indent": ["warn", 2],
     "linebreak-style": ["error", "unix"],
+    "no-unused-vars": "warn",
   },
 }
