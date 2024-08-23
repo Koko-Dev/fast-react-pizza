@@ -24,6 +24,7 @@ module.exports = {
     ],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/jsx-uses-react": "error",
+    "react/react-in-jsx-scope": "error",
     "react/prop-types": ["off"],
     "quotes": ["warn", "single"],
     "indent": ["warn", 2],
