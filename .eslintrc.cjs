@@ -28,6 +28,7 @@ module.exports = {
     "react/prop-types": ["off"],
     "react/no-array-index-key": "warn",
     "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "quotes": ["warn", "single"],
     "indent": ["warn", 2],
     "linebreak-style": ["error", "unix"],
