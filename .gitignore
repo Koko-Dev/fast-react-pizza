@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 .idea/
-.eslintrc.cjs
 vite.config.js
