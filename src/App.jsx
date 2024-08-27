@@ -1,6 +1,11 @@
+import Home from './ui/Home.jsx';
+
+
 function App() {
     return (
-        <div>Hello vite!</div>
+        <div>
+            <Home />
+        </div>
     );
 }
 
