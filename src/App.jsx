@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './ui/Home.jsx';
-import Cart from './features/cart/Cart.jsx';
 import Menu from './features/menu/Menu.jsx';
+import Cart from './features/cart/Cart.jsx';
 
 
 const router = createBrowserRouter( [
