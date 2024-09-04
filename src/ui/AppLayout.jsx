@@ -1,6 +1,16 @@
+import Header from './Header.jsx';
+import CartOverview from '../features/cart/CartOverview.jsx';
+
+
 function AppLayout() {
     return (
-        <div>AppLayout</div>
+        <div>
+            <Header />
+            
+            <main>Content</main>
+            
+            <CartOverview />
+        </div>
     );
 }
 
