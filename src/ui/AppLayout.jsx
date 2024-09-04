@@ -6,9 +6,9 @@ function AppLayout() {
     return (
         <div>
             <Header />
-            
-            <main>Content</main>
-            
+            <main>
+                <h1>Content</h1><
+                /main>
             <CartOverview />
         </div>
     );
