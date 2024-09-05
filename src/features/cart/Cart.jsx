@@ -22,6 +22,14 @@ function Cart() {
                     <CartItem item={ item } key={ item.pizzaId } />
                 ) ) }
             </ul>
+            
+            <div>
+                <button>
+                    Order pizzas
+                </button>
+                
+                <button>Clear cart</button>
+            </div>
         </div>
     );
 }
