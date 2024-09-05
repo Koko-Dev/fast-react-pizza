@@ -7,8 +7,8 @@ function AppLayout() {
         <div>
             <Header />
             <main>
-                <h1>Content</h1><
-                /main>
+                <h1>Content</h1>
+            </main>
             <CartOverview />
         </div>
     );
