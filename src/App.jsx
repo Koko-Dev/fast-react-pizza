@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AppLayout from './ui/AppLayout.jsx';
+import Error from './ui/Error.jsx';
 import Home from './ui/Home.jsx';
 import Menu from './features/menu/Menu.jsx';
 import Cart from './features/cart/Cart.jsx';
@@ -11,7 +12,7 @@ import Order from './features/order/Order.jsx';
 const router = createBrowserRouter( [
                                         {
                                             element: <AppLayout />,
-                                            errorElement: '<Error />',
+                                            errorElement: <Error />,
                                             children: [
                                                 {
                                                     path: '/',
