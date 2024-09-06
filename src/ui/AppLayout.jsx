@@ -1,6 +1,7 @@
 import Header from './Header.jsx';
 import CartOverview from '../features/cart/CartOverview.jsx';
 import { Outlet, useNavigation } from 'react-router-dom';
+import Loader from './Loader.jsx';
 
 
 function AppLayout() {
@@ -8,7 +9,9 @@ function AppLayout() {
     const isLoading = navigation.state === 'loading';
     
     return (
-        <div>
+        <div className='layout'>
+            { isLoading && <Loader /> }
+            
             <Header />
             <main>
                 <h1>Content</h1>
