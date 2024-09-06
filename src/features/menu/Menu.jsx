@@ -6,7 +6,6 @@ function Menu() {
     const menu = useLoaderData();
     console.log(menu);
     
-    
     return (
         <div>Menu</div>
     );
