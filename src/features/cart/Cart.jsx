@@ -1,4 +1,5 @@
 import CartItem from './CartItem.jsx';
+import { Link } from 'react-router-dom';
 
 
 const fakeCart = [
@@ -14,9 +15,10 @@ const fakeCart = [
 
 function Cart() {
     const cart = fakeCart;
-    
     return (
         <div>
+            <Link to='/menu'>Back to menu</Link>
+            
             <ul>
                 { cart.map( ( item ) => (
                     <CartItem item={ item } key={ item.pizzaId } />
@@ -27,7 +29,6 @@ function Cart() {
                 <button>
                     Order pizzas
                 </button>
-                
                 <button>Clear cart</button>
             </div>
         </div>
