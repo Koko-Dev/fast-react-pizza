@@ -10,11 +10,23 @@ const order = {
     estimatedDelivery: '2027-04-25T10:00:00',
     cart: [
         {
-            pizzaId: 7, name: 'Napoli', quantity: 3, unitPrice: 16, totalPrice: 48,
+            pizzaId: 7,
+            name: 'Napoli',
+            quantity: 3,
+            unitPrice: 16,
+            totalPrice: 48,
         }, {
-            pizzaId: 5, name: 'Diavola', quantity: 2, unitPrice: 16, totalPrice: 32,
+            pizzaId: 5,
+            name: 'Diavola',
+            quantity: 2,
+            unitPrice: 16,
+            totalPrice: 32,
         }, {
-            pizzaId: 3, name: 'Romana', quantity: 1, unitPrice: 15, totalPrice: 15,
+            pizzaId: 3,
+            name: 'Romana',
+            quantity: 1,
+            unitPrice: 15,
+            totalPrice: 15,
         },
     ],
     position: '-9,000,38.000',
@@ -28,7 +40,13 @@ function Order() {
 //    so for privacy reasons we're going to exclude names or addresses;
 //    these are only for the restaurant staff
     const {
-              id, status, priority, priorityPrice, orderPrice, estimatedDelivery, cart,
+              id,
+              status,
+              priority,
+              priorityPrice,
+              orderPrice,
+              estimatedDelivery,
+              cart,
           } = order;
     const deliveryIn = calcMinutesLeft( estimatedDelivery );
     
